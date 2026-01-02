@@ -25,7 +25,7 @@ This project relies on Python 3 and the following external libraries:
 
 * `pyserial`: For communicating with the Arduino.
 * `ppk2-api`: For controlling the Power Profiler Kit II.
-* 
+  
 ## Arduino Setup
 
 The Arduino script and required libraries are already included in this repository.
