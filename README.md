@@ -1,4 +1,4 @@
-# Battery-Experiment
+# Discharge-Measurements
 HERE DESCRIPTION
 
 # hello here!
