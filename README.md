@@ -17,6 +17,7 @@ To replicate this setup, you need:
 * **Nordic PPK2:** Connected via USB (Data/Power).
 * **Arduino (Any model):** Connected via USB. Must be running a sketch that prints voltage floats to Serial @ 115200 baud.
 * **Device Under Test (DUT):** The battery being discharged.
+* **Ohmic Resistor:** The resistor in which the the battery voltage will drop.  
 
 ## Dependencies
 
