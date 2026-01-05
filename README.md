@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the Python control software **(read_data.py)** developed for my Bachelor of Science thesis. The tool automates the process of recording battery discharge curves by synchronizing voltage readings and current measurements. The set-up is really simple: The Arduino is connected parallel to the battery, while the PPK2 is in series with the resistor. 
+This repository contains the Python control software **(read_data.py)** developed for my BSc thesis. The tool automates the process of recording battery discharge curves by synchronizing voltage readings and current measurements. The set-up is really simple: The Arduino is connected parallel to the battery, while the PPK2 is in series with the resistor. 
 
 It integrates two hardware components:
 1.  **Arduino:** Acts as a voltmeter to read the battery's terminal voltage.
