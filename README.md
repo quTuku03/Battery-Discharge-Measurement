@@ -31,8 +31,16 @@ This project relies on Python 3 and the following external libraries:
 The Arduino script and required libraries are already included in this repository.
 
 
-### Installation
+## Installation
 
 ```bash
 pip install pyserial
 git clone https://github.com/IRNAS/ppk2-api-python
+```
+
+## Usefull Links
+
+* https://www.arduino.cc/en/software/
+* https://docs.nordicsemi.com/bundle/ug_ppk2/page/UG/ppk/PPK_user_guide_Intro.html
+* https://pyserial.readthedocs.io/en/latest/pyserial.html
+* https://github.com/IRNAS
