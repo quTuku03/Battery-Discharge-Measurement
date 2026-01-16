@@ -9,7 +9,7 @@ from ppk2_api.ppk2_api import PPK2_API
 ser = serial.Serial("COMX", 115200, timeout=0)  # Change COMX to actual port
 time.sleep(1)
 
-# Defining csv file
+# File
 file_name = "battery_data_" + time.strftime("%H_%M_%S") + ".csv"
 start_time = time.time()  #  Elapsed time (seconds)
 
@@ -55,7 +55,7 @@ while not stop:
             voltage = float(serial_line)
         except ValueError:
             print("'Bad' line:", serial_line)
-           # bad_lines.append(serial_line)  #Saving 'bad' lines
+           # bad_lines.append(serial_line)  #You can save the 'bad' lines
             continue
 
         # Current from PPK2
@@ -66,7 +66,7 @@ while not stop:
             if len(samples) > 0:
                 current = sum(samples) / len(samples)
 
-        # Print and save
+        
         print(f"{timestamp} | {elapsed_time}s | {voltage}V | {current}uA")
         with open(file_name, "a", newline="") as csvfile:
             writer = csv.writer(csvfile)
@@ -77,9 +77,9 @@ while not stop:
             print("Battery reached cut-off")
             stop = True
 
-# Closing PPK2 & Arduino
 ppk2.toggle_DUT_power("OFF")
 ppk2.stop_measuring()
 ppk2.ser.close()
 ser.close()
+
 
