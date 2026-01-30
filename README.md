@@ -14,7 +14,7 @@ It integrates two hardware components:
 
 The script logs `Time`, `Voltage (V)`, and `Current (µA)` to a CSV file until the battery reaches a defined cutoff voltage.
 
-##  Hardware Architecture
+##  Hardware
 
 To replicate this setup, you need:
 * **Nordic PPK2:** Connected via USB (Data/Power).
