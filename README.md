@@ -7,7 +7,7 @@ This repository contains the Python control software **(read_data.py)** develope
 
 ## Schematic 
 
-<img width="350" height="450" alt="κυκλωματικο" src="https://github.com/user-attachments/assets/9404f2c4-e301-42da-a6b9-8eb12ddf7cc9" />
+<img width="400" height="450" alt="κυκλωματικο" src="https://github.com/user-attachments/assets/9404f2c4-e301-42da-a6b9-8eb12ddf7cc9" />
 
 It integrates two hardware components:
 1.  **Arduino:** Acts as a voltmeter to read the battery's terminal voltage.
